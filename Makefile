@@ -18,6 +18,9 @@ clean:
 greeting:
 	echo 'hello'
 
+math: 
+	expr 2 + 2
+
 filecheck:
 		curl "https://s3.amazonaws.com/media.johnkeefe.net/class-modules/inflation.csv" -o tmp/previous.csv
 
